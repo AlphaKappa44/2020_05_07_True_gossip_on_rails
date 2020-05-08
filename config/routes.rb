@@ -6,8 +6,8 @@ root to:'homes#gossips_list'
   get '/team', to: 'static_pages#team'
   get 'contact', to: 'static_pages#contact'
 
-  resources :gossips #do 
-    #resources :gossiptags
+  resources:gossips #do 
+    # resources :gossiptags
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

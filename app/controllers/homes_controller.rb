@@ -7,7 +7,7 @@ class HomesController < ApplicationController
   end
 
   def gossips_list
-  
+    
   end
 
 
